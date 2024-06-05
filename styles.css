@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background: url("https://afterdark.ee/public/home/assets/images/pages/e574647c29e4ca5ea14f8b01de04bc85.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #343a40;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #495057;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
