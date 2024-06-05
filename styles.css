@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/*Обращаюсь к классу*/
 .hero h1 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -25,7 +25,7 @@ body {
   background-color: #343a40;
   border: none;
 }
-
+/*Обращаюсь к псевлоклассу, который будет выполняться в случае наведения мышки на объект(в данном случае)*/
 .btn-primary:hover {
   background-color: #495057;
 }
